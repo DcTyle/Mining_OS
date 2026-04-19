@@ -1,0 +1,26 @@
+# Build outputs and binary artifacts
+/build/
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.a
+*.so
+*.dylib
+
+# Generated docs and research datasets
+/docs/
+/ResearchConfinement/
+/researchconfinment/
+
+# Runtime logs and test output
+/runtime_logs/
+/tests/
+/qbit_miner_live_validation_test.csv
+/qbit_miner_preview_validation_test.csv
+/test_out.txt
+/test_ctest_exit.txt
